@@ -1,0 +1,55 @@
+/*--------------------------------navbar--------------------------------*/
+.header
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(241, 243, 245);
+    border-bottom: 1px solid  rgb(180, 178, 178);
+    padding-bottom: 15px;
+}
+#btn button
+{
+    border: 1px solid rgb(92, 91, 91);
+     color: black; 
+     border-radius: 25px; 
+     padding: 10px;
+      width: 180px;
+}
+#social a img
+{
+    margin: 4px;
+}
+#mynavbar ul li a
+{
+    color: black;
+}
+@media (max-width:776px)
+{
+    #btn button{
+        width: 100%;
+    }
+}
+@media (max-width:380px)
+{
+    #nav img
+    {
+        margin-left: -25px;
+        
+    }
+}
+/*---------------------navbar end---------------------*/
+.card img
+{
+    max-height: 400px;
+}
+#new-img img
+{
+    max-height: 300px;
+}
+/*---------------------footer--------------*/
+.akkr
+{
+    width:100%;
+    height: 200px;
+    background-color: rgb(166, 168, 168);
+}

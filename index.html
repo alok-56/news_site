@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multi news</title>
+
+    <!---------css-link------>
+    <link rel="stylesheet" href="style.css">
+
+    <!------bootstap file link-------->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+
+
+</head>
+
+<body>
+
+    <!-------------------haeding section----------------->
+    <div class="header">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-4  order-sm-3 mt-3 order-md-1 order-3  " id="btn">
+                    <a href="postblog.html"><button class="btn btn-outline-light" style="font-weight: bold;">Watch live
+                            News</button></a>
+                </div>
+                <div class="col-md-4  mt-3 order-sm-1 order-md-2 order-1">
+                    <h3 class="text-center" style="font-weight: bold;">Multi news</h3>
+                </div>
+                <div class="col-md-4  mt-4  order-sm-1 order-md-3 order-2">
+                    <div class="row ">
+                        <div class="col-10 text-md-center text-sm-right" id="social">
+                            <a href=""><img src="img/fb.jpg" alt=""></a>
+                            <a href=""><img src="img/insta.jpg" alt=""></a>
+                            <a href=""><img src="img/twitter.png" alt=""></a>
+                        </div>
+                        <div class="col-2" id="nav">
+
+                            <img class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynavbar"
+                                src="img/threelines - Copy.png" alt="">
+
+                            <!-------nav bar for small screen------>
+                        </div>
+                        <div class="collapse navbar-collapse " id="mynavbar">
+                            <ul class="navbar-nav text-center d-sm-block d-md-none d-block bg-light mt-3"
+                                style="border: 1px solid black;">
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="cat.html" class="nav-link">Categories</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link">Login/signup</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----------------------navbar for large screen------>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav text-center d-md-block d-sm-none d-none bg-light mt-3"
+                    style="border: 1px solid rgb(95, 93, 93);">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="cat.html" class="nav-link">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">login//signnup</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!----------------------latest news section---------------------------->
+    <div class="latest">
+        <div class="container">
+            <h1 class="text-center mt-3" style="font-weight: bold;">Latest's News </h1>
+            <div class="row mt-4">
+                <div class="col-md-6 col-12">
+                    <div class="card">
+                        <img id="img1" src="" class="card-img-top" alt="Image not aviable for this news....">
+                        <div class="d-flex m-3 ">
+                            <h4 id="tech1"></h4>
+                        </div>
+                        <div class="card-body" style="margin-top: -30px;">
+                            <h1 class="card-title" style="color: black; font-weight: bold;" id="head1"></h1>
+                            <p class="card-text text-wrap" style="color: rgb(163, 162, 162);" id="news1"></p> <a
+                                id="url1" href="" class="btn btn-primary text-center" style="margin-left: 145px;">read
+                                more</a>
+                            <div class="d-flex">
+                                <p style="margin-left: 8px;" id="author1"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 mt-3 mt-md-0">
+                    <div class="card">
+                        <img id="img2" src="" class="card-img-top" alt="">
+                        <div class="d-flex m-3 ">
+                            <h4 id="tech2"></h4>
+                        </div>
+                        <div class="card-body" style="margin-top: -30px;">
+                            <h1 class="card-title" style="color: black; font-weight: bold;" id="head2"></h1>
+                            <p class="card-text text-wrap" style="color: rgb(163, 162, 162);" id="news2"></p> <a
+                                id="url2" href="" class="btn btn-primary text-center" style="margin-left: 145px;">read
+                                more</a>
+                            <div class="d-flex">
+                                <p style="margin-left: 8px;" id="author2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-----------------------2nd row-------------------------------->
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-md-6 col-12">
+                <div class="card">
+                    <img id="img3" src="" class="card-img-top" alt="Image not aviable for this news....">
+                    <div class="d-flex m-3 ">
+                        <h4 id="tech3"></h4>
+
+                    </div>
+                    <div class="card-body" style="margin-top: -30px;">
+                        <h1 class="card-title" style="color: black; font-weight: bold;" id="head3"></h1>
+                        <p class="card-text text-wrap" style="color: rgb(163, 162, 162);" id="news3"></p> <a id="url3"
+                            href="" class="btn btn-primary text-center" style="margin-left: 145px;">read more</a>
+                        <div class="d-flex">
+                            <p style="margin-left: 8px;" id="author3"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 mt-3 mt-md-0">
+                <div class="card">
+                    <img id="img4" src="" class="card-img-top" alt="Image not aviable for this news....">
+                    <div class="d-flex m-3 ">
+                        <h4 id="tech4"></h4>
+
+                    </div>
+                    <div class="card-body" style="margin-top: -30px;">
+                        <h1 class="card-title" style="color: black; font-weight: bold;" id="head4"></h1>
+                        <p class="card-text text-wrap" style="color: rgb(163, 162, 162);" id="news4"> </p>
+                        <a id="url4" href="" class="btn btn-primary text-center" style="margin-left: 145px;">read
+                            more</a>
+                        <div class="d-flex">
+                            <p style="margin-left: 8px;" id="author4"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------------------------------3rd row-------------->
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-md-6 col-12">
+                    <div class="card">
+                        <img id="img5" src="" class="card-img-top" alt="Image not aviable for this news....">
+                        <div class="d-flex m-3 ">
+                            <h4 id="tech5"></h4>
+
+                        </div>
+                        <div class="card-body" style="margin-top: -30px;">
+                            <h1 class="card-title" style="color: black; font-weight: bold;" id="head5"></h1>
+                            <p class="card-text text-wrap" style="color: rgb(163, 162, 162);" id="news5"></p> <a
+                                id="url5" href="" class="btn btn-primary text-center" style="margin-left: 145px;">read
+                                more</a>
+                            <div class="d-flex">
+                                <p style="margin-left: 8px;" id="author5"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 mt-3 mt-md-0">
+                    <div class="card">
+                        <img id="img6" src="" class="card-img-top" alt="Image not aviable for this news....">
+                        <div class="d-flex m-3 ">
+                            <h4 id="tech6"></h4>
+
+                        </div>
+                        <div class="card-body" style="margin-top: -30px;">
+                            <h1 class="card-title" style="color: black; font-weight: bold;" id="head6"></h1>
+                            <p class="card-text text-wrap" style="color: rgb(163, 162, 162);" id="news6"> </p>
+                            <a id="url6" href="" class="btn btn-primary text-center" style="margin-left: 145px;">read
+                                more</a>
+                            <div class="d-flex">
+                                <p style="margin-left: 8px;" id="author6"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-------------------4th row------------------>
+            <div class="container">
+                <div class="row mt-4">
+                    <div class="col-md-6 col-12">
+                        <div class="card">
+                            <img id="img7" src="" class="card-img-top" alt="Image not aviable for this news....">
+                            <div class="d-flex m-3 ">
+                                <h4 id="tech7"></h4>
+                            </div>
+                            <div class="card-body" style="margin-top: -30px;">
+                                <h1 class="card-title" style="color: black; font-weight: bold;" id="head7"></h1>
+                                <p class="card-text text-wrap" style="color: rgb(163, 162, 162);" id="news7"></p> <a
+                                    id="url7" href="" class="btn btn-primary text-center"
+                                    style="margin-left: 145px;">read more</a>
+                                <div class="d-flex">
+                                    <p style="margin-left: 8px;" id="author7"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 mt-3 mt-md-0">
+                        <div class="card">
+                            <img id="img8" src="" class="card-img-top" alt="Image not aviable for this news....">
+                            <div class="d-flex m-3 ">
+                                <h4 id="tech8"></h4>
+
+                            </div>
+                            <div class="card-body" style="margin-top: -30px;">
+                                <h1 class="card-title" style="color: black; font-weight: bold;" id="head8"></h1>
+                                <p class="card-text text-wrap" style="color: rgb(163, 162, 162);" id="news8"> </p>
+                                <a id="url8" href="" class="btn btn-primary text-center"
+                                    style="margin-left: 145px;">read
+                                    more</a>
+                                <div class="d-flex">
+                                    <p style="margin-left: 8px;" id="author8"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--------------------next page-------------->
+
+
+
+                <!----------------Health----------------->
+                <div class="news">
+                    <div class="container mt-5">
+                        <h1 style="font-weight: bold;">Health</h1>
+                        <div class="row mt-5">
+                            <div class="col-md-4 col-sm-12 text-sm-center" id="new-img">
+                                <img id="himg1" class="img-fluid" style="max-width: 100%;" src="" alt="">
+                            </div>
+                            <div class="col-md-8 col-sm-12 mt-sm-3 mt-3">
+                                <div class="d-flex">
+                                    <h4 id="htech1"></h4>
+                                </div>
+                                <div>
+                                    <p class="card-text text-wrap" style="color: rgb(163, 162, 162);" id="hnews1">
+                                    </p> <a id="hurl1" href="" class="btn btn-primary" style="margin-left: 25px;">read
+                                        more</a>
+                                </div>
+                                <div class="d-flex mt-3">
+                                    <p style="margin-left: auto;" id="hauthor1"></p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="col-md-4 col-sm-12 text-sm-center" id="new-img">
+                                <img id="himg2" class="img-fluid" style="max-width: 100%;" src="" alt="">
+                            </div>
+                            <div class="col-md-8 col-sm-12 mt-sm-3 mt-3">
+                                <div class="d-flex">
+                                    <h4 id="htech2"></h4>
+                                </div>
+                                <div>
+                                    <p class="card-text text-wrap" style="color: rgb(163, 162, 162);" id="hnews2">
+                                    </p> <a id="hurl2" href="" class="btn btn-primary" style="margin-left: 25px;">read
+                                        more</a>
+                                </div>
+                                <div class="d-flex mt-3">
+                                    <p style="margin-left: auto;" id="hauthor2"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="col-md-4 col-sm-12 text-sm-center" id="new-img">
+                                <img id="himg3" class="img-fluid" style="max-width: 100%;" src="" alt="">
+                            </div>
+                            <div class="col-md-8 col-sm-12 mt-sm-3 mt-3">
+                                <div class="d-flex">
+                                    <h4 id="htech3"></h4>
+                                </div>
+                                <div>
+                                    <p class="card-text text-wrap" style="color: rgb(163, 162, 162);" id="hnews3">
+                                    </p> <a id="hurl3" href="" class="btn btn-primary" style="margin-left: 25px;">read
+                                        more</a>
+                                </div>
+                                <div class="d-flex mt-3">
+                                    <p style="margin-left: auto;" id="hauthor3"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="col-md-4 col-sm-12 text-sm-center" id="new-img">
+                                <img id="himg4" class="img-fluid" style="max-width: 100%;" src="" alt="">
+                            </div>
+                            <div class="col-md-8 col-sm-12 mt-sm-3 mt-3">
+                                <div class="d-flex">
+                                    <h4 id="htech4"></h4>
+                                </div>
+                                <div>
+                                    <p class="card-text text-wrap" style="color: rgb(163, 162, 162);" id="hnews4">
+                                    </p> <a id="hurl4" href="" class="btn btn-primary" style="margin-left: 25px;">read
+                                        more</a>
+                                </div>
+                                <div class="d-flex mt-3">
+                                    <p style="margin-left: auto;" id="hauthor4"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="col-md-4 col-sm-12 text-sm-center" id="new-img">
+                                <img id="himg5" class="img-fluid" style="max-width: 100%;" src="" alt="">
+                            </div>
+                            <div class="col-md-8 col-sm-12 mt-sm-3 mt-3">
+                                <div class="d-flex">
+                                    <h4 id="htech5"></h4>
+                                </div>
+                                <div>
+                                    <p class="card-text text-wrap" style="color: rgb(163, 162, 162);" id="hnews5">
+                                    </p> <a id="hurl5" href="" class="btn btn-primary" style="margin-left: 25px;">read
+                                        more</a>
+                                </div>
+                                <div class="d-flex mt-3">
+                                    <p style="margin-left: auto;" id="hauthor5"></p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <!------------------technology--------------->
+                <div class="news">
+                    <div class="container" style="margin-top: 100px;">
+                        <h1 style="font-weight: bold; margin-top: 40px;">Technology</h1>
+                        <div class="row mt-5">
+                            <div class="col-md-4 col-sm-12 text-sm-center" id="new-img">
+                                <img id="timg1" class="img-fluid" style="max-width: 100%;" src="" alt="">
+                            </div>
+                            <div class="col-md-8 col-sm-12 mt-sm-3 mt-3">
+                                <div class="d-flex">
+                                    <h4 id="ttech1"></h4>
+                                </div>
+                                <div>
+                                    <p class="card-text text-wrap" style="color: rgb(163, 162, 162);" id="tnews1">
+                                    </p> <a id="turl1" href="" class="btn btn-primary" style="margin-left: 25px;">read
+                                        more</a>
+                                </div>
+                                <div class="d-flex mt-3">
+                                    <p style="margin-left: auto;" id="tauthor1"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="col-md-4 col-sm-12 text-sm-center" id="new-img">
+                                <img id="timg2" class="img-fluid" style="max-width: 100%;" src="" alt="">
+                            </div>
+                            <div class="col-md-8 col-sm-12 mt-sm-3 mt-3">
+                                <div class="d-flex">
+                                    <h4 id="ttech2"></h4>
+                                </div>
+                                <div>
+                                    <p class="card-text text-wrap" style="color: rgb(163, 162, 162);" id="tnews2">
+                                    </p> <a id="turl2" href="" class="btn btn-primary" style="margin-left: 25px;">read
+                                        more</a>
+                                </div>
+                                <div class="d-flex mt-3">
+                                    <p style="margin-left: auto;" id="tauthor2"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="col-md-4 col-sm-12 text-sm-center" id="new-img">
+                                <img id="timg3" class="img-fluid" style="max-width: 100%;" src="" alt="">
+                            </div>
+                            <div class="col-md-8 col-sm-12 mt-sm-3 mt-3">
+                                <div class="d-flex">
+                                    <h4 id="ttech3"></h4>
+                                </div>
+                                <div>
+                                    <p class="card-text text-wrap" style="color: rgb(163, 162, 162);" id="tnews3">
+                                    </p> <a id="turl3" href="" class="btn btn-primary" style="margin-left: 25px;">read
+                                        more</a>
+                                </div>
+                                <div class="d-flex mt-3">
+                                    <p style="margin-left: auto;" id="tauthor3"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="col-md-4 col-sm-12 text-sm-center" id="new-img">
+                                <img id="timg4" class="img-fluid" style="max-width: 100%" src="" alt="">
+                            </div>
+                            <div class="col-md-8 col-sm-12 mt-sm-3 mt-3">
+                                <div class="d-flex">
+                                    <h4 id="ttech4"></h4>
+                                </div>
+                                <div>
+                                    <p class="card-text text-wrap" style="color: rgb(163, 162, 162);" id="tnews4">
+                                    </p> <a id="turl4" href="" class="btn btn-primary" style="margin-left: 25px;">read
+                                        more</a>
+                                </div>
+                                <div class="d-flex mt-3">
+                                    <p style="margin-left: auto;" id="tauthor4"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="col-md-4 col-sm-12 text-sm-center" id="new-img">
+                                <img id="timg5" class="img-fluid" style="max-width: 100%;" src="" alt="">
+                            </div>
+                            <div class="col-md-8 col-sm-12 mt-sm-3 mt-3">
+                                <div class="d-flex">
+                                    <h4 id="ttech5"></h4>
+                                </div>
+                                <div>
+                                    <p class="card-text text-wrap" style="color: rgb(163, 162, 162);" id="tnews5">
+                                    </p> <a id="turl5" href="" class="btn btn-primary" style="margin-left: 25px;">read
+                                        more</a>
+                                </div>
+                                <div class="d-flex mt-3">
+                                    <p style="margin-left: auto;" id="tauthor5"></p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+                <!-----------------footer----------------------->
+                <div class="responsive bg-red">
+                    <div class="container-fluid bg-red">
+                        <div class="row mt-5">
+                            <div class="col mt-5">
+                                <h3 style="font-weight: bold;">check for daily Updates</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8 col-sm-12">
+                                <input class="p-2" style="width:100%; border-radius: 7px;" type="gmail"
+                                    placeholder="Enter your Gmail">
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <button class="btn btn-warning p-2 mt-sm-2 mt-2 mt-md-0 "
+                                    style="border-radius: 15px; width: 100%;">Send your resquest</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!----------------footer-down------------------->
+                <div class="footer">
+                    <div class="container">
+                        <din class="row">
+                            <div class="col text-center mt-5">
+                                <a href=""><img src="img/fb.jpg" alt=""></a>
+                                <a href=""><img class="m-4" src="img/insta.jpg" alt=""></a>
+                                <a href=""><img src="img/twitter.png" alt=""></a>
+                            </div>
+                        </din>
+                        <div class="row">
+                            <div class="col text-center">
+                                <p>Copyright @2022 All right reserved ! this template is made by Alokkumar</p>
+                                <p>Terms & conditions / privacy policy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--------------------java script----------------->
+                <script>
+                    //-----------latest news------------//
+                    var news1 = document.getElementById("news1");
+                    var news2 = document.getElementById("news2");
+                    var news3 = document.getElementById("news3");
+                    var news4 = document.getElementById("news4");
+                    var news5 = document.getElementById("news5");
+                    var news6 = document.getElementById("news6");
+                    var news7 = document.getElementById("news7");
+                    var news8 = document.getElementById("news8");
+
+                    var tech1 = document.getElementById("tech1");
+                    var tech2 = document.getElementById("tech2");
+                    var tech3 = document.getElementById("tech3");
+                    var tech4 = document.getElementById("tech4");
+                    var tech5 = document.getElementById("tech5");
+                    var tech6 = document.getElementById("tech6");
+                    var tech7 = document.getElementById("tech7");
+                    var tech8 = document.getElementById("tech8");
+
+
+                    var head1 = document.getElementById("head1");
+                    var head2 = document.getElementById("head2");
+                    var head3 = document.getElementById("head3");
+                    var head4 = document.getElementById("head4");
+                    var head5 = document.getElementById("head5");
+                    var head6 = document.getElementById("head6");
+                    var head7 = document.getElementById("head7");
+                    var head8 = document.getElementById("head8");
+
+                    var author1 = document.getElementById("author1");
+                    var author2 = document.getElementById("author2");
+                    var author3 = document.getElementById("author3");
+                    var author4 = document.getElementById("author4");
+                    var author5 = document.getElementById("author5");
+                    var author6 = document.getElementById("author6");
+                    var author7 = document.getElementById("author7");
+                    var author8 = document.getElementById("author8");
+
+
+                    var img1 = document.getElementById("img1")
+                    var img2 = document.getElementById("img2")
+                    var img3 = document.getElementById("img3")
+                    var img4 = document.getElementById("img4")
+                    var img5 = document.getElementById("img5")
+                    var img6 = document.getElementById("img6")
+                    var img7 = document.getElementById("img7")
+                    var img8 = document.getElementById("img8")
+
+
+                    var url1 = document.getElementById("url1");
+                    var url2 = document.getElementById("url2");
+                    var url3 = document.getElementById("url3");
+                    var url4 = document.getElementById("url4");
+                    var url5 = document.getElementById("url5");
+                    var url6 = document.getElementById("url6");
+                    var url7 = document.getElementById("url7");
+                    var url8 = document.getElementById("url8");
+
+                    fetch(`https://newsapi.org/v2/top-headlines?country=in&apiKey=ece980a5d4354017bc64f6382571058c`).
+                        then(function (response) {
+                            return response.json();
+                        }).then(function (alok) {
+                            console.log(alok)
+                            api(alok);
+                        }).catch(function (error) {
+                            alert("sorry for the inconvence..due to the bad server we cannot able to fetch the api from server..")
+                        });
+                    function api(alok) {
+
+                        news1.innerHTML = alok.articles[9].content;
+                        news2.innerHTML = alok.articles[5].content;
+                        news3.innerHTML = alok.articles[7].content;
+                        news4.innerHTML = alok.articles[3].content;
+
+                        img1.src = alok.articles[1].urlToImage;
+                        img2.src = alok.articles[5].urlToImage;
+                        img3.src = alok.articles[7].urlToImage;
+                        img4.src = alok.articles[3].urlToImage;
+
+                        head2.innerHTML = alok.articles[5].title;
+                        head1.innerHTML = alok.articles[1].title;
+                        head3.innerHTML = alok.articles[7].title;
+                        head4.innerHTML = alok.articles[3].title;
+
+                        author1.innerHTML = `by ${alok.articles[1].author} <br> (${alok.articles[1].source.name})`;
+                        author2.innerHTML = `by ${alok.articles[5].author} <br> (${alok.articles[5].source.name})`;
+                        author3.innerHTML = `by ${alok.articles[7].author} <br> (${alok.articles[7].source.name})`;
+                        author4.innerHTML = `by ${alok.articles[3].author} <br> (${alok.articles[3].source.name})`;
+
+                        url1.href = alok.articles[1].url;
+                        url2.href = alok.articles[5].url;
+                        url3.href = alok.articles[7].url;
+                        url4.href = alok.articles[3].url;
+
+                        tech1.innerHTML = alok.articles[1].publishedAt;
+                        tech2.innerHTML = alok.articles[5].publishedAt;
+                        tech3.innerHTML = alok.articles[7].publishedAt;
+                        tech4.innerHTML = alok.articles[3].publishedAt;
+
+                        news5.innerHTML = alok.articles[2].content;
+                        news6.innerHTML = alok.articles[6].content;
+                        news7.innerHTML = alok.articles[8].content;
+                        news8.innerHTML = alok.articles[9].content;
+
+                        img5.src = alok.articles[2].urlToImage;
+                        img6.src = alok.articles[6].urlToImage;
+                        img7.src = alok.articles[8].urlToImage;
+                        img8.src = alok.articles[9].urlToImage;
+
+                        author5.innerHTML = `by ${alok.articles[1].author} <br> (${alok.articles[2].source.name})`;
+                        author6.innerHTML = `by ${alok.articles[5].author} <br> (${alok.articles[6].source.name})`;
+                        author7.innerHTML = `by ${alok.articles[7].author} <br> (${alok.articles[8].source.name})`;
+                        author8.innerHTML = `by ${alok.articles[3].author} <br> (${alok.articles[9].source.name})`;
+
+                        url5.href = alok.articles[2].url;
+                        url6.href = alok.articles[6].url;
+                        url7.href = alok.articles[8].url;
+                        url8.href = alok.articles[9].url;
+
+                        tech5.innerHTML = alok.articles[2].publishedAt;
+                        tech6.innerHTML = alok.articles[6].publishedAt;
+                        tech7.innerHTML = alok.articles[8].publishedAt;
+                        tech8.innerHTML = alok.articles[9].publishedAt;
+
+                        head5.innerHTML = alok.articles[2].title;
+                        head6.innerHTML = alok.articles[6].title;
+                        head7.innerHTML = alok.articles[8].title;
+                        head8.innerHTML = alok.articles[9].title;
+
+                    }
+
+                    var hnews1 = document.getElementById("hnews1");
+                    var hnews2 = document.getElementById("hnews2");
+                    var hnews3 = document.getElementById("hnews3");
+                    var hnews4 = document.getElementById("hnews4");
+                    var hnews5 = document.getElementById("hnews5");
+
+                    var himg1 = document.getElementById("himg1")
+                    var himg2 = document.getElementById("himg2")
+                    var himg3 = document.getElementById("himg3")
+                    var himg4 = document.getElementById("himg4")
+                    var himg5 = document.getElementById("himg5")
+
+                    var htech1 = document.getElementById("htech1")
+                    var htech2 = document.getElementById("htech2")
+                    var htech3 = document.getElementById("htech3")
+                    var htech4 = document.getElementById("htech4")
+                    var htech5 = document.getElementById("htech5")
+
+                    var hurl1 = document.getElementById("hurl1");
+                    var hurl2 = document.getElementById("hurl2");
+                    var hurl3 = document.getElementById("hurl3");
+                    var hurl4 = document.getElementById("hurl4");
+                    var hurl5 = document.getElementById("hurl5");
+
+                    var hauthor1 = document.getElementById("hauthor1");
+                    var hauthor2 = document.getElementById("hauthor2");
+                    var hauthor3 = document.getElementById("hauthor3");
+                    var hauthor4 = document.getElementById("hauthor4");
+                    var hauthor5 = document.getElementById("hauthor5");
+
+
+
+                    //----------------cateogeries- health-----------------
+
+
+                    fetch(`https://saurav.tech/NewsAPI/top-headlines/category/health/in.json`).then
+                        (function (response) {
+                            return response.json();
+                        }).then(function (api) {
+                            health(api);
+                        }).catch(function (err) {
+                            alert("sorry for the inconvence.......")
+                        })
+
+                    function health(api) {
+                        hnews1.innerHTML = api.articles[9].content;
+                        hnews2.innerHTML = api.articles[2].content;
+                        hnews3.innerHTML = api.articles[3].content;
+                        hnews4.innerHTML = api.articles[6].content;
+                        hnews5.innerHTML = api.articles[5].content;
+
+                        himg1.src = api.articles[7].urlToImage;
+                        himg2.src = api.articles[2].urlToImage;
+                        himg3.src = api.articles[3].urlToImage;
+                        himg4.src = api.articles[6].urlToImage;
+                        himg5.src = api.articles[5].urlToImage;
+
+                        htech1.innerHTML = api.articles[7].title;
+                        htech2.innerHTML = api.articles[2].title;
+                        htech3.innerHTML = api.articles[3].title;
+                        htech4.innerHTML = api.articles[6].title;
+                        htech5.innerHTML = api.articles[5].title;
+
+                        hurl1.href = api.articles[7].url;
+                        hurl2.href = api.articles[2].url;
+                        hurl3.href = api.articles[3].url;
+                        hurl4.href = api.articles[6].url;
+                        hurl5.href = api.articles[5].url;
+
+                        hauthor1.innerHTML = `by ${api.articles[7].author} <br> (${api.articles[7].source.name})`;
+                        hauthor2.innerHTML = `by ${api.articles[2].author} <br> (${api.articles[2].source.name})`;
+                        hauthor3.innerHTML = `by ${api.articles[3].author} <br> (${api.articles[3].source.name})`;
+                        hauthor4.innerHTML = `by ${api.articles[6].author} <br> (${api.articles[6].source.name})`;
+                        hauthor4.innerHTML = `by ${api.articles[5].author} <br> (${api.articles[5].source.name})`;
+
+                    }
+
+                    //----------------categeroies---technology-----
+
+                    var timg1 = document.getElementById("timg1");
+                    var timg2 = document.getElementById("timg2");
+                    var timg3 = document.getElementById("timg3");
+                    var timg4 = document.getElementById("timg4");
+                    var timg5 = document.getElementById("timg5");
+
+                    fetch(`https://saurav.tech/NewsAPI/top-headlines/category/technology/in.json`).then
+                        (function (response) {
+                            return response.json();
+                        }).then(function (tech) {
+                            technical(tech);
+
+                        }).catch(function (error) {
+                            alert("technology news not updated yet..sorry for inconvence....")
+                        })
+
+                    function technical(tech) {
+                        timg1.src = tech.articles[1].urlToImage;
+                        timg2.src = tech.articles[2].urlToImage;
+                        timg3.src = tech.articles[7].urlToImage;
+                        timg4.src = tech.articles[4].urlToImage;
+                        timg5.src = tech.articles[5].urlToImage;
+
+                        tnews1.innerHTML = tech.articles[1].content;
+                        tnews2.innerHTML = tech.articles[2].content;
+                        tnews3.innerHTML = tech.articles[7].content;
+                        tnews4.innerHTML = tech.articles[4].content;
+                        tnews5.innerHTML = tech.articles[5].content;
+
+                        ttech1.innerHTML = tech.articles[1].title;
+                        ttech2.innerHTML = tech.articles[2].title;
+                        ttech3.innerHTML = tech.articles[7].title;
+                        ttech4.innerHTML = tech.articles[4].title;
+                        ttech5.innerHTML = tech.articles[5].title;
+
+                        turl1.href = tech.articles[1].url;
+                        turl2.href = tech.articles[2].url;
+                        turl3.href = tech.articles[7].url;
+                        turl4.href = tech.articles[4].url;
+                        turl5.href = tech.articles[5].url;
+
+                         tauthor1.innerHTML = `by ${tech.articles[1].author} <br> (${tech.articles[1].source.name})`;
+                        tauthor2.innerHTML = `by ${tech.articles[2].author} <br> (${tech.articles[2].source.name})`;
+                        tauthor3.innerHTML = `by ${tech.articles[7].author} <br> (${tech.articles[7].source.name})`;
+                        tauthor4.innerHTML = `by ${tech.articles[4].author} <br> (${tech.articles[4].source.name})`;
+                        tauthor5.innerHTML = `by ${tech.articles[5].author} <br> (${tech.articles[5].source.name})`;
+
+                       
+                    }
+
+                </script>
+
+
+</body>
+
+</html>
